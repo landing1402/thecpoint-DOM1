@@ -1,0 +1,123 @@
+
+    body{
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        display: flex;
+        font-family: Arial, sans-serif;
+    }         
+
+
+#card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#card2{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#card3{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#card2 img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#card3 img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#card h1{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+#card2 h1{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+
+#card3 h1{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+#card h2 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+#card2 h2 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+#card3 h2 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+
+#deleteButton, #plusButton, #minusButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+#deleteButton, #plusButton, #minusButton {
+    background-color: #e04444;
+}
+
+#quantity, #prince {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#quantityControls, #prince {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quantityValue, #priceValue {
+margin: 0 10px;
+}
+
